@@ -7,9 +7,6 @@ import AddPostForm from './features/posts/AddPostForm';
 function App() {
   return (
     <div className="App">
-      {/* <Counter /> */} 
-      <AddPostForm />
-      <PostsList />
     </div>
   );
 }
