@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { reactionAdded } from "./postSlice";
+import { reactionAdded } from "utils/store/slice/postSlice";
 
 const reactionEmoji = {
     thumbsUp: '👍',
