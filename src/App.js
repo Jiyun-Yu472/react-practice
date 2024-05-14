@@ -12,6 +12,9 @@ function App() {
           <li>
             <Link to="/posts">posts</Link>
           </li>
+          <li>
+            <Link to="/socket">socket</Link>
+          </li>
         </ul>
       </nav>
     </div>
