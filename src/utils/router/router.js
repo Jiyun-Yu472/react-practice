@@ -4,7 +4,7 @@ import counterRoute from "utils/router/routes/counterRoute";
 import postRoute from "utils/router/routes/postRoute";
 
 export const router = createBrowserRouter([
-    appRoute,
-    counterRoute,
-    postRoute,
+    ...appRoute,
+    ...counterRoute,
+    ...postRoute,
 ]);

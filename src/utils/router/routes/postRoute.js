@@ -1,7 +1,7 @@
 import AddPostForm from "components/pages/posts/AddPostForm";
 import PostsList from "components/pages/posts/PostsList";
 
-const postRoute = {
+const postRoute = [{
     path: '/posts',
     element: (
         <>
@@ -9,6 +9,6 @@ const postRoute = {
             <PostsList />
         </>
     )
-}
+}]
 
 export default postRoute
